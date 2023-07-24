@@ -1,0 +1,27 @@
+.service_item{
+    padding: 0rem;
+    border-bottom: 1px solid #faa83586 ;
+    border-right: 1px solid #faa83586 ;
+    border-radius: 0.5rem;
+}
+
+
+.service_img{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    background: var(--primary-color);
+
+}
+
+.service_img img{
+    width: 100%;
+}
+.service_item h5{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.service_item p{
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
